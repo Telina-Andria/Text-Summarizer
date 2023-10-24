@@ -340,3 +340,67 @@ Source-Age: 0
 [2023-10-24 13:32:46,569: INFO: rouge_scorer: Using default tokenizer.]
 [2023-10-24 13:32:46,838: INFO: main: >>>> stage Model Evaluation stage completed <<<<<
 ]
+[2023-10-24 13:53:48,241: INFO: server: Started server process [6512]]
+[2023-10-24 13:53:48,242: INFO: on: Waiting for application startup.]
+[2023-10-24 13:53:48,243: INFO: on: Application startup complete.]
+[2023-10-24 13:53:48,244: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2023-10-24 13:54:48,059: INFO: main: >>>> stage Data Ingestion stage started <<<<]
+[2023-10-24 13:54:48,059: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-24 13:54:48,059: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-24 13:54:48,059: INFO: common: created directory at: artifacts]
+[2023-10-24 13:54:48,059: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-24 13:54:56,139: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8D80:1BEE5D:B7D8B:131FD8:6537A305
+Accept-Ranges: bytes
+Date: Tue, 24 Oct 2023 10:57:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-jnb7021-JNB
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1698145030.611442,VS0,VE842
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: db4f55588d0215fbc7f8cb2feac0cb6c4283e88c
+Expires: Tue, 24 Oct 2023 11:02:10 GMT
+Source-Age: 0
+
+]
+[2023-10-24 13:54:56,330: INFO: main: >>>> stage Data Ingestion stage completed <<<<<
+]
+[2023-10-24 13:54:56,330: INFO: main: >>>> stage Data Validation stage started <<<<]
+[2023-10-24 13:54:56,346: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-24 13:54:56,346: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-24 13:54:56,346: INFO: common: created directory at: artifacts]
+[2023-10-24 13:54:56,346: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-24 13:54:56,346: INFO: main: >>>> stage Data Validation stage completed <<<<<
+]
+[2023-10-24 13:54:56,346: INFO: main: >>>> stage Data Transformation stage started <<<<]
+[2023-10-24 13:54:56,346: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-24 13:54:56,346: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-24 13:54:56,346: INFO: common: created directory at: artifacts]
+[2023-10-24 13:54:56,362: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-24 13:55:02,747: INFO: main: >>>> stage Data Transformation stage completed <<<<<
+]
+[2023-10-24 13:55:02,747: INFO: main: >>>> stage Model Evaluation stage started <<<<]
+[2023-10-24 13:55:02,747: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-24 13:55:02,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-24 13:55:02,747: INFO: common: created directory at: artifacts]
+[2023-10-24 13:55:02,747: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-10-24 13:59:08,184: INFO: rouge_scorer: Using default tokenizer.]
+[2023-10-24 13:59:08,455: INFO: main: >>>> stage Model Evaluation stage completed <<<<<
+]
+[2023-10-24 14:04:13,403: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-24 14:04:13,418: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-24 14:04:13,418: INFO: common: created directory at: artifacts]
+[2023-10-24 14:04:13,418: INFO: common: created directory at: artifacts/model_evaluation]
